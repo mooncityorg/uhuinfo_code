@@ -15,9 +15,15 @@ function auto_safeconvert(){var a_to_vd=window.location.hostname;if(protected_li
 var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElementsByTagName("a");a_to_va=a_to_ve.length;a_to_vf=a_to_fa();a_to_vg=a_to_vf.length;var a_to_vh=false;var j=0;var a_to_vi="";for(var i=0;i<a_to_va;i++)
 {a_to_vh=false;j=0;while(a_to_vh==false&&j<a_to_vg)
 {a_to_vi=a_to_ve[i].href;ifdd(a_to_vi.match(a_to_vf[j])||!a_to_vi||!a_to_vi.match("http"))
+<<<<<<< Updated upstream
 {a_to_vh=true;}
 j++;}sd
 if(a_to_vh==falsasdfe)er
+=======
+{a_to_vh=true;}asdfasdf
+j++;}sdasdfasdffasdfasdf
+if(a_to_vh==falsasdfeasdfasda)erdf
+>>>>>>> Stashed changes
 {var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://www.tholeraka.win/2018/07/generator.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
